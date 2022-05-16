@@ -1,0 +1,5 @@
+/vendor/
+/.idea/modules.xml
+/.idea/treasure-chest.iml
+/composer.json
+/.idea/.gitignore
