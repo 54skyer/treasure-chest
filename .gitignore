@@ -1,5 +1,4 @@
 /vendor/
-/.idea/modules.xml
-/.idea/treasure-chest.iml
-/.idea/.gitignore
-/.idea/git_toolbox_prj.xml
+/.idea/*
+/.phpunit.result.cache
+/.idea/php-test-framework.xml

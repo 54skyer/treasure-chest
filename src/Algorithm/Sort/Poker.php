@@ -1,6 +1,6 @@
 <?php
 
-namespace skyer\TreasureChest\Algorithm\Sort;
+namespace TreasureChest\Algorithm\Sort;
 
 use Exception;
 

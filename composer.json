@@ -9,12 +9,21 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.3",
+        "phpunit/phpunit": "9.6.x-dev",
+        "illuminate/support": "8.x-dev",
+        "illuminate/validation": "8.x-dev",
+        "illuminate/database": "8.x-dev",
+        "illuminate/console": "8.x-dev"
     },
     "autoload": {
         "psr-4": {
-            "skyer\\TreasureChest\\": "src/"
-        }
+            "TreasureChest\\": "src/",
+            "Test\\": "tests/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
     },
     "license": "MIT"
 }
